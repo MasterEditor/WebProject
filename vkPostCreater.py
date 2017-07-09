@@ -4,14 +4,6 @@ import sys
 import time
 import datetime
 import vk
-if __name__ == "__main__":
-    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "gettingstarted.settings")
-
-    from django.core.management import execute_from_command_line
-
-    execute_from_command_line(sys.argv)
-
-
 #start of the programm
 print("Console Application is loading... Please, don't close it")
 print("Console Application loaded")
